@@ -1,0 +1,87 @@
+body {
+	font-size: 30px;
+	background-color: #C4DDCE;
+	font-family: 'Tangerine', cursive;
+	/* background-color: #134347; */
+}
+
+/* Header */
+#header-nav {
+	background-color: #134347;
+	border-radius: 0;
+	border: 1px solid black;
+}
+
+.navbar-brand {
+	margin-bottom: 39px;
+	padding: 0px 20px;
+}
+
+.navbar-brand h1 { /* H1 name */
+	color: white;
+	font-size: 4em;
+	font-weight: 500;
+	margin: 10px 0px;
+	text-shadow: 1px 1px 3px #222;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid white;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -60px;
+}
+
+#nav-list {
+  margin-top: 10px;
+  margin: 0px -16px;
+}
+
+#nav-list a {
+	background-color: #DBEAE1;
+	color: black;
+	text-align: center;	
+	font-size: 1.2em;
+	font-weight: bolder;
+	padding: 15px 15px;
+}
+
+#nav-list li {
+	border: 1px solid black;
+	margin-bottom: -2px;	
+}
+
+/* main content */
+#main-content h2 {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.food-tile h3 {
+	font-size: 1.4em;
+}
+
+.food-tile {
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: #DBEAE1;
+	border-radius: 20px;
+}
+
+.food-tile a:hover, .food-tile a:focus{
+	text-decoration: none;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	.food-tile {
+		width: 500px;
+		margin: 0 auto 15px;
+	}
+}
